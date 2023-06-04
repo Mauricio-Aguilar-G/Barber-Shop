@@ -6,8 +6,10 @@ header{
 	padding: 20px 0;
 }
 .caja{
-	width:940px;
-	position:relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
 	margin: 0 auto;
 }
 nav{
@@ -16,8 +18,12 @@ nav{
 	right:0;
 	
 }
+
+nav ul{
+	padding-right: 20px;
+}
 #logo{
-	width:15%;
+	width:10%;
 	padding: 10px;
 }
 nav li{
@@ -46,7 +52,6 @@ footer{
 	color:#FFFFFF;
 }
 #foot{
-	width:940px;
 	height:200px;
 	position:relative;
 	margin: 0 auto;
@@ -61,23 +66,34 @@ footer{
 	margin: 0 20px;
 }
 .principal{
-	width:100%;
 	margin: 0 auto;
-	padding: 3em 0;
+	padding: 3em 50px;
 	background: linear-gradient(#FFFFFF,#CCCCCC);
 }
 .banner{
 	width:100%;
 }
+
+.text-container{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 50px;
+	
+}
+
+.text-container p{
+	text-align: start;
+}
+
+
 .titulo_principal{
 	font-size: 2em;
 	font-style:bold;
 	text-align:center;
-	margin: 1em 0 1em;
+	margin: 2em 0 1em;
 }
 .principal p{
 	margin: 0 0 1em;
-	text-align: center;
 }
 .principal strong{
 	font-weight:bold;
@@ -86,11 +102,9 @@ footer{
 	font-style:italic;
 }
 .utensilio{
-	width:120px;
-	float:left;
+	width:120px;	
 }
 .mapa{
-	width:100%;
 	margin: 0 auto;
 	padding: 3em 0;
 	background:linear-gradient(#CCCCCC,#777777);
@@ -100,7 +114,7 @@ footer{
 	text-align:center;
 }
 .mapa-contenido{
-	width:940px;
+	width:100%;
 	margin: 0 auto;
 }
 .diferencial{
